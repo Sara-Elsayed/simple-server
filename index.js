@@ -3,7 +3,6 @@ var app = express();
 var path = require('path');
 
 app.get('/', function(req, res){
-    debugger;
   res.send('Home');
 });
 app.get('/image', function(req, res){
